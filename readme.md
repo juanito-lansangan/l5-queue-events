@@ -3,3 +3,4 @@
 - Events - Decouple task of your application
 - Mailable - mail boilerplate
 - Observers - detect eloquent changes
+- Mailtrap - email service for testing email on development stage

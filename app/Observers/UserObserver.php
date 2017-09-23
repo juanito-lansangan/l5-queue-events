@@ -16,6 +16,7 @@ class UserObserver
      */
     public function created(User $user)
     {
+        // fire WelcomeMailEvent after user created
         Event::fire(new WelcomeMailEvent($user));
     }
 

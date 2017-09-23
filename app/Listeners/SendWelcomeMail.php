@@ -9,7 +9,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use App\Mail\WelcomeMail;
 
-class SendWelcomeMail
+class SendWelcomeMail implements ShouldQueue
 {
     /**
      * Create the event listener.
