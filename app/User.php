@@ -19,13 +19,6 @@ class User extends Authenticatable
     ];
 
     /**
-    * Attached Events for User Events
-    */
-    protected $events = [
-        'created' => \App\Events\WelcomeMail::class
-    ];
-
-    /**
      * The attributes that should be hidden for arrays.
      *
      * @var array

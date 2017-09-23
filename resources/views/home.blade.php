@@ -15,8 +15,6 @@
                     @endif
 
                     You are logged in!
-
-                    <a href="{{route('sendEmail')}}" class="btn btn-block btn-primary">Send An Email</a>
                 </div>
             </div>
         </div>

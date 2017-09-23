@@ -11,7 +11,7 @@ use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use App\User;
 
-class WelcomeMail
+class WelcomeMailEvent
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
     public $user;
